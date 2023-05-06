@@ -6,6 +6,8 @@ import Blogs from "./blogs"
 import Marketplace from "./marketplace"
 import Products from "./products"
 import Dashboard from "./dashboard/Dashboard";
+import Login from "./login";
+import Signup from "./signup"
 
 
 
@@ -13,7 +15,9 @@ function Links(){
     return(
         <div>
                <Routes>
-                 <Route exact path="/"  Component={Dashboard}/>
+                 <Route exact path="/"  Component={Login}/>
+                 <Route path="signup" Component={Signup}/>
+                 <Route path="dashboard" Component={Dashboard}/>
                  <Route path="blogs" Component={Blogs } />
                  <Route path="products" Component={Products} />
                  <Route path="marketplace" Component={Marketplace } />
