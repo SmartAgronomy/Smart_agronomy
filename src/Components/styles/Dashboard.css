@@ -1,7 +1,7 @@
 
 
 .body{
-    background-image:url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\about_img.jpg");
+  
     background-size:100% 70%;
     background-repeat:no-repeat;
     background-position: center;
@@ -13,26 +13,26 @@
 
 
 }
-@keyframes slideImage {
+/* @keyframes slideImage {
     0%{
-        background-image:url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\about_img.jpg");
+        background-image:url("/workspaces/Smart_agronomy/src/Components\Images\about_img.jpg");
        
     }
     25%{
-        background-image: url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\Home_Picture4.png");
+        background-image: url("/workspaces/Smart_agronomy/src/Components\Images\Home_Picture4.png");
       
     }
     50%{
-        background-image: url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\Home_Picture2.png");
+        background-image: url("/workspaces/Smart_agronomy/src/Components\Images\Home_Picture2.png");
     }
     75%{
-        background-image: url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\Home_Picture3.png");
+        background-image: url("/workspaces/Smart_agronomy/src/Components\Images\Home_Picture3.png");
     }
     100%{
        
-        background-image: url("D:\Digitalized Smart Agronomy\server\our-react\src\Components\Images\Home_Picture1.png");
+        background-image: url("/workspaces/Smart_agronomy/src/Components\Images\Home_Picture1.png");
     }
-}
+} */
 
 .website_logo{
     height:400px;
@@ -60,7 +60,6 @@ nav{
     opacity:0.9;
     background-color:rgb(0, 0, 0);
     position:fixed;
-    float: right;
     display:inline-block;
     width:100%;
     
