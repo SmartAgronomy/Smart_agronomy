@@ -29,7 +29,7 @@ function Header(){
           <img class="cart" src={cart} />
         <nav >
             <ul>
-                 <li><Link to="/">Home</Link></li>
+                 <li><Link to="/dashboard">Home</Link></li>
                  
                  <li><Link to="/Marketplace">Marketplace</Link>
                  <div class="sub-nav_1">
@@ -103,7 +103,7 @@ function Header(){
                  <li><Link to="/contact">Contact</Link></li>
             </ul>
             <div class="button">
-               <Link to="/login" ><button>Sign in</button></Link>
+               <Link to="/" ><button>Sign in</button></Link>
                <Link to="/signup"><button>Sign Up</button></Link>
             </div>
             
